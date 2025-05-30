@@ -173,7 +173,7 @@ export default function Interventions() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="cost">Coût (€)</Label>
+                  <Label htmlFor="cost">Coût (FCFA)</Label>
                   <Input
                     id="cost"
                     type="number"
