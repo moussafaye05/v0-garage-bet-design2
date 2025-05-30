@@ -137,7 +137,7 @@ export default function Bilan() {
             <CardTitle className="text-xl text-white">Dépenses totales</CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-3xl font-bold text-[#84cc16]">{totalExpenses.toFixed(2)} €</p>
+            <p className="text-3xl font-bold text-[#84cc16]">{totalExpenses.toFixed(2)} FCFA</p>
           </CardContent>
         </Card>
 
@@ -155,7 +155,7 @@ export default function Bilan() {
                     <YAxis stroke="#999999" />
                     <Tooltip
                       contentStyle={{ backgroundColor: "#2A2A2A", borderColor: "#333333", color: "white" }}
-                      formatter={(value) => [`${value.toFixed(2)} €`, "Montant"]}
+                      formatter={(value) => [`${value.toFixed(2)} FCFA`, "Montant"]}
                     />
                     <Bar dataKey="montant" fill="#84cc16" />
                   </BarChart>
