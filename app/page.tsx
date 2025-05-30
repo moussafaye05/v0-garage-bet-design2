@@ -132,7 +132,7 @@ export default function Home() {
               Dépenses totales
             </h2>
             <p className="text-3xl font-bold text-[#84cc16]">
-              {totalExpenses.toFixed(2)} €
+              {totalExpenses.toFixed(2)} FCFA
             </p>
           </CardContent>
         </Card>
@@ -155,7 +155,7 @@ export default function Home() {
                         {intervention.vehicleName}
                       </p>
                       <p className="text-[#84cc16]">
-                        {Number.parseFloat(intervention.cost).toFixed(2)} €
+                        {Number.parseFloat(intervention.cost).toFixed(2)} FCFA
                       </p>
                     </div>
                     <p className="text-sm text-gray-400">{intervention.date}</p>
