@@ -215,7 +215,7 @@ export default function Interventions() {
                         <p className="text-xs text-gray-400 mt-1">Technicien: {intervention.technician}</p>
                       )}
                       <p className="text-lg font-semibold text-[#84cc16] mt-2">
-                        {Number.parseFloat(intervention.cost).toFixed(2)} €
+                        {Number.parseFloat(intervention.cost).toFixed(2)} FCFA
                       </p>
                     </div>
                     <div className="flex items-center">
